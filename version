@@ -1,6 +1,6 @@
 frontend: f5056d6 Update deploy.yml
 config: db4ec93 Update mirrorz.org.json
-parser: eeab9ce Update tuna.js
+parser: c771046 Update pku.js
 i18n: 25bf668 Add i18n for 302-go in about
 json_site: cf38b24 hit: update disk
 json_legacy: 2022-07-03T13:30:15.957Z
