@@ -1,0 +1,143 @@
+{
+  "version": 1.5,
+  "site": {
+    "url": "https://mirror.nyist.edu.cn",
+    "logo": "https://mirror.nyist.edu.cn/static/img/logo.svg",
+    "abbr": "NYIST",
+    "name": "南阳理工学院开源镜像站",
+    "homepage": "https://mirror.nyist.edu.cn",
+    "issue": "https://github.com/NYIST-OSUG/mirror-help/issues",
+    "request": "https://github.com/NYIST-OSUG/mirror-help/issues",
+    "email": "dp@nyist.edu.cn",
+    "group": "https://t.me/NYISTOSUG"
+  },
+  "info": [],
+  "mirrors": [
+    {
+      "cname": "apache",
+      "url": "/apache",
+      "status": "S1652847354",
+      "size": "132G"
+    },
+    {
+      "cname": "centos",
+      "url": "/centos",
+      "status": "S1652847449",
+      "size": "400G"
+    },
+    {
+      "cname": "deepin",
+      "url": "/deepin",
+      "status": "F1652847672",
+      "size": "295G"
+    },
+    {
+      "cname": "debian",
+      "url": "/debian",
+      "status": "S1652849070",
+      "size": "1.9T"
+    },
+    {
+      "cname": "kali",
+      "url": "/kali",
+      "status": "S1652849731",
+      "size": "1.4T"
+    },
+    {
+      "cname": "mysql",
+      "url": "/mysql",
+      "status": "S1652849744",
+      "size": "800G"
+    },
+    {
+      "cname": "openwrt",
+      "url": "/openwrt",
+      "status": "S1652849245",
+      "size": "1.2T"
+    },
+    {
+      "cname": "postgresql",
+      "url": "/postgresql",
+      "status": "S1652849833",
+      "size": "328G"
+    },
+    {
+      "cname": "raspbian",
+      "url": "/raspbian",
+      "status": "S1652850069",
+      "size": "510G"
+    },
+    {
+      "cname": "redhat",
+      "url": "/redhat",
+      "status": "S1652850154",
+      "size": "4.1T"
+    },
+    {
+      "cname": "ubuntu",
+      "url": "/ubuntu",
+      "status": "S1652851490",
+      "size": "1.8T"
+    },
+    {
+      "cname": "zabbix",
+      "url": "/zabbix",
+      "status": "S1652851522",
+      "size": "92G"
+    },
+    {
+      "cname": "pypi",
+      "url": "/pypi",
+      "status": "S-1590354886",
+      "size": "None"
+    },
+    {
+      "cname": "dart-pub",
+      "url": "/dart-pub",
+      "status": "S1652841056",
+      "size": "387G"
+    },
+    {
+      "cname": "fedora",
+      "url": "/fedora",
+      "status": "S1652841079",
+      "size": "2.7T"
+    },
+    {
+      "cname": "videolan-ftp",
+      "url": "/videolan-ftp",
+      "status": "S1652841087",
+      "size": "92G"
+    },
+    {
+      "cname": "virtualbox",
+      "url": "/virtualbox",
+      "status": "S1652841087",
+      "size": "139G"
+    },
+    {
+      "cname": "openeuler",
+      "url": "/openeuler",
+      "status": "S1652841085",
+      "size": "1.8T"
+    },
+    {
+      "cname": "ubuntu-releases",
+      "url": "/ubuntu-releases",
+      "status": "S1652841086",
+      "size": "26G"
+    },
+    {
+      "cname": "CTAN",
+      "url": "/CTAN",
+      "status": "S1652841008",
+      "size": "48G"
+    },
+    {
+      "cname": "termux",
+      "url": "/termux",
+      "status": "S1652841086",
+      "size": "15G"
+    }
+  ]
+}

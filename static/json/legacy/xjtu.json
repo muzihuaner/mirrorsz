@@ -1,0 +1,732 @@
+{
+  "site": {
+    "url": "https://mirrors.xjtu.edu.cn",
+    "logo": "https://mirrors.xjtu.edu.cn/assets/img/icon.20210917.svg",
+    "logo_darkmode": "https://mirrors.xjtu.edu.cn/assets/img/icon-white.20210917.svg",
+    "abbr": "XJTU",
+    "name": "西安交通大学软件镜像站",
+    "homepage": "https://xjtuana.com",
+    "email": "mirrors at xjtu dot edu dot cn",
+    "issue": "https://github.com/openana/mirrors.xjtu.edu.cn/issues"
+  },
+  "info": [
+    {
+      "distro": "archlinux",
+      "category": "os",
+      "urls": [
+        {
+          "name": "2021.10.01 (x86_64, CLI-only)",
+          "url": "/archlinux/iso/latest/archlinux-2021.10.01-x86_64.iso"
+        }
+      ]
+    },
+    {
+      "distro": "alpine",
+      "category": "os",
+      "urls": [
+        {
+          "name": "3.14.2 (x86_64, xen)",
+          "url": "/alpine/latest-stable/releases/x86_64/alpine-xen-3.14.2-x86_64.iso"
+        },
+        {
+          "name": "3.14.2 (x86_64, virt)",
+          "url": "/alpine/latest-stable/releases/x86_64/alpine-virt-3.14.2-x86_64.iso"
+        },
+        {
+          "name": "3.14.2 (x86_64, standard)",
+          "url": "/alpine/latest-stable/releases/x86_64/alpine-standard-3.14.2-x86_64.iso"
+        },
+        {
+          "name": "3.14.2 (x86_64, extended)",
+          "url": "/alpine/latest-stable/releases/x86_64/alpine-extended-3.14.2-x86_64.iso"
+        },
+        {
+          "name": "3.14.2 (x86, virt)",
+          "url": "/alpine/latest-stable/releases/x86/alpine-virt-3.14.2-x86.iso"
+        },
+        {
+          "name": "3.14.2 (x86, standard)",
+          "url": "/alpine/latest-stable/releases/x86/alpine-standard-3.14.2-x86.iso"
+        },
+        {
+          "name": "3.14.2 (x86, extended)",
+          "url": "/alpine/latest-stable/releases/x86/alpine-extended-3.14.2-x86.iso"
+        },
+        {
+          "name": "3.14.2 (s390x, standard)",
+          "url": "/alpine/latest-stable/releases/s390x/alpine-standard-3.14.2-s390x.iso"
+        },
+        {
+          "name": "3.14.2 (ppc64le, standard)",
+          "url": "/alpine/latest-stable/releases/ppc64le/alpine-standard-3.14.2-ppc64le.iso"
+        },
+        {
+          "name": "3.14.2 (armv7, virt)",
+          "url": "/alpine/latest-stable/releases/armv7/alpine-virt-3.14.2-armv7.iso"
+        },
+        {
+          "name": "3.14.2 (aarch64, virt)",
+          "url": "/alpine/latest-stable/releases/aarch64/alpine-virt-3.14.2-aarch64.iso"
+        },
+        {
+          "name": "3.14.2 (aarch64, standard)",
+          "url": "/alpine/latest-stable/releases/aarch64/alpine-standard-3.14.2-aarch64.iso"
+        },
+        {
+          "name": "3.14.1 (x86_64, xen)",
+          "url": "/alpine/latest-stable/releases/x86_64/alpine-xen-3.14.1-x86_64.iso"
+        },
+        {
+          "name": "3.14.1 (x86_64, virt)",
+          "url": "/alpine/latest-stable/releases/x86_64/alpine-virt-3.14.1-x86_64.iso"
+        },
+        {
+          "name": "3.14.1 (x86_64, standard)",
+          "url": "/alpine/latest-stable/releases/x86_64/alpine-standard-3.14.1-x86_64.iso"
+        },
+        {
+          "name": "3.14.1 (x86_64, extended)",
+          "url": "/alpine/latest-stable/releases/x86_64/alpine-extended-3.14.1-x86_64.iso"
+        },
+        {
+          "name": "3.14.1 (x86, virt)",
+          "url": "/alpine/latest-stable/releases/x86/alpine-virt-3.14.1-x86.iso"
+        },
+        {
+          "name": "3.14.1 (x86, standard)",
+          "url": "/alpine/latest-stable/releases/x86/alpine-standard-3.14.1-x86.iso"
+        },
+        {
+          "name": "3.14.1 (x86, extended)",
+          "url": "/alpine/latest-stable/releases/x86/alpine-extended-3.14.1-x86.iso"
+        },
+        {
+          "name": "3.14.1 (s390x, standard)",
+          "url": "/alpine/latest-stable/releases/s390x/alpine-standard-3.14.1-s390x.iso"
+        },
+        {
+          "name": "3.14.1 (ppc64le, standard)",
+          "url": "/alpine/latest-stable/releases/ppc64le/alpine-standard-3.14.1-ppc64le.iso"
+        },
+        {
+          "name": "3.14.1 (armv7, virt)",
+          "url": "/alpine/latest-stable/releases/armv7/alpine-virt-3.14.1-armv7.iso"
+        },
+        {
+          "name": "3.14.1 (aarch64, virt)",
+          "url": "/alpine/latest-stable/releases/aarch64/alpine-virt-3.14.1-aarch64.iso"
+        },
+        {
+          "name": "3.14.1 (aarch64, standard)",
+          "url": "/alpine/latest-stable/releases/aarch64/alpine-standard-3.14.1-aarch64.iso"
+        },
+        {
+          "name": "3.14.0 (x86_64, xen)",
+          "url": "/alpine/latest-stable/releases/x86_64/alpine-xen-3.14.0-x86_64.iso"
+        },
+        {
+          "name": "3.14.0 (x86_64, virt)",
+          "url": "/alpine/latest-stable/releases/x86_64/alpine-virt-3.14.0-x86_64.iso"
+        },
+        {
+          "name": "3.14.0 (x86_64, standard)",
+          "url": "/alpine/latest-stable/releases/x86_64/alpine-standard-3.14.0-x86_64.iso"
+        },
+        {
+          "name": "3.14.0 (x86_64, extended)",
+          "url": "/alpine/latest-stable/releases/x86_64/alpine-extended-3.14.0-x86_64.iso"
+        },
+        {
+          "name": "3.14.0 (x86, virt)",
+          "url": "/alpine/latest-stable/releases/x86/alpine-virt-3.14.0-x86.iso"
+        },
+        {
+          "name": "3.14.0 (x86, standard)",
+          "url": "/alpine/latest-stable/releases/x86/alpine-standard-3.14.0-x86.iso"
+        },
+        {
+          "name": "3.14.0 (x86, extended)",
+          "url": "/alpine/latest-stable/releases/x86/alpine-extended-3.14.0-x86.iso"
+        },
+        {
+          "name": "3.14.0 (s390x, standard)",
+          "url": "/alpine/latest-stable/releases/s390x/alpine-standard-3.14.0-s390x.iso"
+        },
+        {
+          "name": "3.14.0 (ppc64le, standard)",
+          "url": "/alpine/latest-stable/releases/ppc64le/alpine-standard-3.14.0-ppc64le.iso"
+        },
+        {
+          "name": "3.14.0 (armv7, virt)",
+          "url": "/alpine/latest-stable/releases/armv7/alpine-virt-3.14.0-armv7.iso"
+        },
+        {
+          "name": "3.14.0 (aarch64, virt)",
+          "url": "/alpine/latest-stable/releases/aarch64/alpine-virt-3.14.0-aarch64.iso"
+        },
+        {
+          "name": "3.14.0 (aarch64, standard)",
+          "url": "/alpine/latest-stable/releases/aarch64/alpine-standard-3.14.0-aarch64.iso"
+        }
+      ]
+    },
+    {
+      "distro": "debian",
+      "category": "os",
+      "urls": [
+        {
+          "name": "live-11.0.0 (i386, xfce)",
+          "url": "/debian-cd/current-live/i386/iso-hybrid/debian-live-11.0.0-i386-xfce.iso"
+        },
+        {
+          "name": "live-11.0.0 (i386, standard)",
+          "url": "/debian-cd/current-live/i386/iso-hybrid/debian-live-11.0.0-i386-standard.iso"
+        },
+        {
+          "name": "live-11.0.0 (i386, mate)",
+          "url": "/debian-cd/current-live/i386/iso-hybrid/debian-live-11.0.0-i386-mate.iso"
+        },
+        {
+          "name": "live-11.0.0 (i386, lxqt)",
+          "url": "/debian-cd/current-live/i386/iso-hybrid/debian-live-11.0.0-i386-lxqt.iso"
+        },
+        {
+          "name": "live-11.0.0 (i386, lxde)",
+          "url": "/debian-cd/current-live/i386/iso-hybrid/debian-live-11.0.0-i386-lxde.iso"
+        },
+        {
+          "name": "live-11.0.0 (i386, kde)",
+          "url": "/debian-cd/current-live/i386/iso-hybrid/debian-live-11.0.0-i386-kde.iso"
+        },
+        {
+          "name": "live-11.0.0 (i386, gnome)",
+          "url": "/debian-cd/current-live/i386/iso-hybrid/debian-live-11.0.0-i386-gnome.iso"
+        },
+        {
+          "name": "live-11.0.0 (i386, cinnamon)",
+          "url": "/debian-cd/current-live/i386/iso-hybrid/debian-live-11.0.0-i386-cinnamon.iso"
+        },
+        {
+          "name": "live-11.0.0 (amd64, xfce)",
+          "url": "/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.0.0-amd64-xfce.iso"
+        },
+        {
+          "name": "live-11.0.0 (amd64, standard)",
+          "url": "/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.0.0-amd64-standard.iso"
+        },
+        {
+          "name": "live-11.0.0 (amd64, mate)",
+          "url": "/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.0.0-amd64-mate.iso"
+        },
+        {
+          "name": "live-11.0.0 (amd64, lxqt)",
+          "url": "/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.0.0-amd64-lxqt.iso"
+        },
+        {
+          "name": "live-11.0.0 (amd64, lxde)",
+          "url": "/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.0.0-amd64-lxde.iso"
+        },
+        {
+          "name": "live-11.0.0 (amd64, kde)",
+          "url": "/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.0.0-amd64-kde.iso"
+        },
+        {
+          "name": "live-11.0.0 (amd64, gnome)",
+          "url": "/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.0.0-amd64-gnome.iso"
+        },
+        {
+          "name": "live-11.0.0 (amd64, cinnamon)",
+          "url": "/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.0.0-amd64-cinnamon.iso"
+        },
+        {
+          "name": "11.0.0 (i386, netinst)",
+          "url": "/debian-cd/current/i386/iso-cd/debian-11.0.0-i386-netinst.iso"
+        },
+        {
+          "name": "11.0.0 (amd64, netinst)",
+          "url": "/debian-cd/current/amd64/iso-cd/debian-11.0.0-amd64-netinst.iso"
+        }
+      ]
+    },
+    {
+      "distro": "ubuntu",
+      "category": "os",
+      "urls": [
+        {
+          "name": "21.10-beta (amd64, Live Server)",
+          "url": "/ubuntu-releases/impish/ubuntu-21.10-beta-live-server-amd64.iso"
+        },
+        {
+          "name": "21.10-beta (amd64, Desktop LiveDVD)",
+          "url": "/ubuntu-releases/impish/ubuntu-21.10-beta-desktop-amd64.iso"
+        },
+        {
+          "name": "21.04 (amd64, Live Server)",
+          "url": "/ubuntu-releases/hirsute/ubuntu-21.04-live-server-amd64.iso"
+        },
+        {
+          "name": "21.04 (amd64, Desktop LiveDVD)",
+          "url": "/ubuntu-releases/hirsute/ubuntu-21.04-desktop-amd64.iso"
+        },
+        {
+          "name": "20.10 (amd64, Live Server)",
+          "url": "/ubuntu-releases/groovy/ubuntu-20.10-live-server-amd64.iso"
+        },
+        {
+          "name": "20.10 (amd64, Desktop LiveDVD)",
+          "url": "/ubuntu-releases/groovy/ubuntu-20.10-desktop-amd64.iso"
+        },
+        {
+          "name": "20.04.3 (amd64, Live Server)",
+          "url": "/ubuntu-releases/focal/ubuntu-20.04.3-live-server-amd64.iso"
+        },
+        {
+          "name": "20.04.3 (amd64, Desktop LiveDVD)",
+          "url": "/ubuntu-releases/focal/ubuntu-20.04.3-desktop-amd64.iso"
+        },
+        {
+          "name": "18.04.6 (amd64, Live Server)",
+          "url": "/ubuntu-releases/bionic/ubuntu-18.04.6-live-server-amd64.iso"
+        },
+        {
+          "name": "18.04.6 (amd64, Desktop LiveDVD)",
+          "url": "/ubuntu-releases/bionic/ubuntu-18.04.6-desktop-amd64.iso"
+        },
+        {
+          "name": "16.04.7 (amd64, Server)",
+          "url": "/ubuntu-releases/xenial/ubuntu-16.04.7-server-amd64.iso"
+        },
+        {
+          "name": "16.04.7 (amd64, Desktop LiveDVD)",
+          "url": "/ubuntu-releases/xenial/ubuntu-16.04.7-desktop-amd64.iso"
+        },
+        {
+          "name": "16.04.6 (i386, Server)",
+          "url": "/ubuntu-releases/xenial/ubuntu-16.04.6-server-i386.iso"
+        },
+        {
+          "name": "16.04.6 (i386, Desktop LiveDVD)",
+          "url": "/ubuntu-releases/xenial/ubuntu-16.04.6-desktop-i386.iso"
+        },
+        {
+          "name": "14.04.6 (i386, Server)",
+          "url": "/ubuntu-releases/trusty/ubuntu-14.04.6-server-i386.iso"
+        },
+        {
+          "name": "14.04.6 (i386, Desktop LiveDVD)",
+          "url": "/ubuntu-releases/trusty/ubuntu-14.04.6-desktop-i386.iso"
+        },
+        {
+          "name": "14.04.6 (amd64, Server)",
+          "url": "/ubuntu-releases/trusty/ubuntu-14.04.6-server-amd64.iso"
+        },
+        {
+          "name": "14.04.6 (amd64, Desktop LiveDVD)",
+          "url": "/ubuntu-releases/trusty/ubuntu-14.04.6-desktop-amd64.iso"
+        }
+      ]
+    }
+  ],
+  "mirrors": [
+    {
+      "cname": "alpine",
+      "options_name": "alpine",
+      "url": "/alpine/",
+      "status": "S1647604092X1647625692",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/alpine/",
+      "size": "1.59T"
+    },
+    {
+      "cname": "anaconda",
+      "options_name": "anaconda",
+      "url": "/anaconda/",
+      "status": "F1647599662O1647577108X1647621262",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/anaconda/",
+      "size": "7.47T"
+    },
+    {
+      "cname": "archlinux",
+      "options_name": "archlinux",
+      "url": "/archlinux/",
+      "status": "S1647589691X1647611291",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/archlinux/",
+      "size": "69.24G"
+    },
+    {
+      "cname": "archlinuxcn",
+      "options_name": "archlinuxcn",
+      "url": "/archlinuxcn/",
+      "status": "S1647595887X1647617487",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/",
+      "size": "72.90G"
+    },
+    {
+      "cname": "artixlinux",
+      "options_name": "artixlinux",
+      "url": "/artixlinux/",
+      "status": "S1647606703X1647628303",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/artixlinux/",
+      "size": "17.84G"
+    },
+    {
+      "cname": "centos",
+      "options_name": "centos",
+      "url": "/centos/",
+      "status": "S1647602435X1647624035",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/centos/",
+      "size": "387.49G"
+    },
+    {
+      "cname": "ceph",
+      "options_name": "ceph",
+      "url": "/ceph/",
+      "status": "S1647606573X1647628173",
+      "upstream": "rsync://download.ceph.com/ceph/",
+      "size": "2.16T"
+    },
+    {
+      "cname": "CPAN",
+      "options_name": "cpan",
+      "url": "/cpan/",
+      "status": "S1647597516X1647619116",
+      "upstream": "rsync://cpan-rsync.perl.org/CPAN/",
+      "size": "29.69G"
+    },
+    {
+      "cname": "CRAN",
+      "options_name": "cran",
+      "url": "/cran/",
+      "status": "S1647594895X1647616495",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/CRAN/",
+      "size": "355.72G"
+    },
+    {
+      "cname": "CTAN",
+      "options_name": "ctan",
+      "url": "/ctan/",
+      "status": "S1647596385X1647617985",
+      "upstream": "rsync://mirrors.rit.edu/CTAN/",
+      "size": "49.75G"
+    },
+    {
+      "cname": "ctex",
+      "options_name": "ctex",
+      "url": "/ctex/",
+      "status": "F1647605255O1647583644X1647626855",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/ctex/",
+      "size": "4.35G"
+    },
+    {
+      "cname": "cygwin",
+      "options_name": "cygwin",
+      "url": "/cygwin/",
+      "status": "S1647589186X1647610786",
+      "upstream": "rsync://mirrors.kernel.org/sourceware/cygwin/",
+      "size": "167.00G"
+    },
+    {
+      "cname": "debian",
+      "options_name": "debian",
+      "url": "/debian/",
+      "status": "S1647606719X1647628319",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/debian/",
+      "size": "1.98T"
+    },
+    {
+      "cname": "debian-cd",
+      "options_name": "debian-cd",
+      "url": "/debian-cd/",
+      "status": "S1647605274X1647626874",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/debian-cd/",
+      "size": "220.71G"
+    },
+    {
+      "cname": "debian-security",
+      "options_name": "debian-security",
+      "url": "/debian-security/",
+      "status": "S1647600278X1647621878",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/debian-security/",
+      "size": "163.98G"
+    },
+    {
+      "cname": "deepin",
+      "options_name": "deepin",
+      "url": "/deepin/",
+      "status": "S1647589539X1647611139",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/deepin/",
+      "size": "307.81G"
+    },
+    {
+      "cname": "deepin-cd",
+      "options_name": "deepin-cd",
+      "url": "/deepin-cd/",
+      "status": "F1647593995O1647572385X1647615595",
+      "upstream": "rsync://rsync.deepin.com/releases/",
+      "size": "34.20G"
+    },
+    {
+      "cname": "docker-ce",
+      "options_name": "docker-ce",
+      "url": "/docker-ce/",
+      "status": "S1647607081X1647628681",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/docker-ce/",
+      "size": "615.66G"
+    },
+    {
+      "cname": "epel",
+      "options_name": "epel",
+      "url": "/epel/",
+      "status": "S1647590309X1647611909",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/epel/",
+      "size": "348.34G"
+    },
+    {
+      "cname": "fedora",
+      "options_name": "fedora",
+      "url": "/fedora/",
+      "status": "S1647598129X1647619729",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/fedora/",
+      "size": "2.33T"
+    },
+    {
+      "cname": "fedora-altarch",
+      "options_name": "fedora-secondary",
+      "url": "/fedora-secondary/",
+      "status": "S1647608370X1647629970",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/fedora-altarch/",
+      "size": "38.91G"
+    },
+    {
+      "cname": "gnu",
+      "options_name": "gnu",
+      "url": "/gnu/",
+      "status": "S1647605584X1647627184",
+      "upstream": "rsync://mirrors.ocf.berkeley.edu/gnu/",
+      "size": "130.66G"
+    },
+    {
+      "cname": "homebrew-bottles",
+      "options_name": "homebrew-bottles",
+      "url": "/homebrew-bottles/",
+      "status": "S1647603713X1647625313",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/",
+      "size": "339.73G"
+    },
+    {
+      "cname": "iina",
+      "options_name": "iina",
+      "url": "/iina/",
+      "status": "S1647599604X1647621204",
+      "upstream": "rsync://link-start.iina.io/iina/",
+      "size": "1.58G"
+    },
+    {
+      "cname": "jenkins",
+      "options_name": "jenkins",
+      "url": "/jenkins/",
+      "status": "S1647597846X1647619446",
+      "upstream": "rsync://rsync.osuosl.org/jenkins/",
+      "size": "140.16G"
+    },
+    {
+      "cname": "kali",
+      "options_name": "kali",
+      "url": "/kali/",
+      "status": "S1647601654X1647623254",
+      "upstream": "rsync://ftp.nluug.nl/kali/",
+      "size": "1.49T"
+    },
+    {
+      "cname": "kali-images",
+      "options_name": "kali-images",
+      "url": "/kali-images/",
+      "status": "S1647607389X1647628989",
+      "upstream": "rsync://ftp.nluug.nl/kali-images/",
+      "size": "159.41G"
+    },
+    {
+      "cname": "kernel",
+      "options_name": "kernel",
+      "url": "/kernel/",
+      "status": "S1647606095X1647627695",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/kernel/",
+      "size": "864.37G"
+    },
+    {
+      "cname": "kodi",
+      "options_name": "kodi",
+      "url": "/kodi/",
+      "status": "S1647607459X1647629059",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/kodi/",
+      "size": "183.97G"
+    },
+    {
+      "cname": "manjaro",
+      "options_name": "manjaro",
+      "url": "/manjaro/",
+      "status": "S1647593762X1647615362",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/manjaro/",
+      "size": "125.29G"
+    },
+    {
+      "cname": "manjaro-cd",
+      "options_name": "manjaro-cd",
+      "url": "/manjaro-cd/",
+      "status": "S1647605244X1647626844",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/osdn/storage/g/m/ma/manjaro/",
+      "size": "21.66G"
+    },
+    {
+      "cname": "mongodb",
+      "options_name": "mongodb",
+      "url": "/mongodb/",
+      "status": "S1647605560X1647627160",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/mongodb/",
+      "size": "114.13G"
+    },
+    {
+      "cname": "openwrt",
+      "options_name": "openwrt",
+      "url": "/openwrt/",
+      "status": "S1647591973X1647613573",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/openwrt/",
+      "size": "1.03T"
+    },
+    {
+      "cname": "pypi",
+      "options_name": "pypi",
+      "url": "/pypi/",
+      "status": "S1647609843X1647610143",
+      "upstream": "https://pypi.org/",
+      "size": "0"
+    },
+    {
+      "cname": "raspberrypi",
+      "options_name": "raspberrypi",
+      "url": "/raspberrypi/",
+      "status": "S1647599405X1647621005",
+      "upstream": "rsync://apt-repo.raspberrypi.org/archive/debian/",
+      "size": "202.70G"
+    },
+    {
+      "cname": "raspberrypi-images",
+      "options_name": "raspberrypi-images",
+      "url": "/raspberrypi-images/",
+      "status": "S1647605214X1647626814",
+      "upstream": "rsync://ftp.jaist.ac.jp/pub/raspberrypi/",
+      "size": "459.22G"
+    },
+    {
+      "cname": "raspbian",
+      "options_name": "raspbian",
+      "url": "/raspbian/",
+      "status": "S1647594016X1647615616",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/raspbian/",
+      "size": "532.92G"
+    },
+    {
+      "cname": "rfc",
+      "options_name": "rfc",
+      "url": "/rfc/",
+      "status": "S1647605399X1647626999",
+      "upstream": "rsync://ftp.rfc-editor.org/rfcs/",
+      "size": "4.01G"
+    },
+    {
+      "cname": "rocky",
+      "options_name": "rocky",
+      "url": "/rocky/",
+      "status": "S1647599290X1647620890",
+      "upstream": "rsync://msync.rockylinux.org/rocky/mirror/pub/rocky/",
+      "size": "317.70G"
+    },
+    {
+      "cname": "ros",
+      "options_name": "ros",
+      "url": "/ros/",
+      "status": "S1647595856X1647617456",
+      "upstream": "rsync://mirror.umd.edu/packages.ros.org/ros/ubuntu/",
+      "size": "92.25G"
+    },
+    {
+      "cname": "ros2-rhel",
+      "options_name": "ros2-rhel",
+      "url": "/ros2-rhel/",
+      "status": "S1647606104X1647627704",
+      "upstream": "rsync://packages.ros.org/ros2-rhel-main/",
+      "size": "3.23G"
+    },
+    {
+      "cname": "ros2-ubuntu",
+      "options_name": "ros2-ubuntu",
+      "url": "/ros2-ubuntu/",
+      "status": "S1647596212X1647617812",
+      "upstream": "rsync://packages.ros.org/ros2-main/",
+      "size": "53.05G"
+    },
+    {
+      "cname": "rpmfusion",
+      "options_name": "rpmfusion",
+      "url": "/rpmfusion/",
+      "status": "S1647607845X1647629445",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/rpmfusion/",
+      "size": "234.66G"
+    },
+    {
+      "cname": "ubuntu",
+      "options_name": "ubuntu",
+      "url": "/ubuntu/",
+      "status": "S1647595928X1647617528",
+      "upstream": "rsync://rsync.archive.ubuntu.com/ubuntu",
+      "size": "0"
+    },
+    {
+      "cname": "ubuntu-ports",
+      "options_name": "ubuntu-ports",
+      "url": "/ubuntu-ports/",
+      "status": "S1647597499X1647619099",
+      "upstream": "rsync://ports.ubuntu.com/ubuntu-ports",
+      "size": "0"
+    },
+    {
+      "cname": "ubuntu-releases",
+      "options_name": "ubuntu-releases",
+      "url": "/ubuntu-releases/",
+      "status": "S1647599012X1647620612",
+      "upstream": "rsync://rsync.releases.ubuntu.com/releases",
+      "size": "0"
+    },
+    {
+      "cname": "videolan-ftp",
+      "options_name": "videolan-ftp",
+      "url": "/videolan-ftp/",
+      "status": "S1647609948X1647631548",
+      "upstream": "rsync://rsync.videolan.org/videolan-ftp/",
+      "size": "97.02G"
+    },
+    {
+      "cname": "vim",
+      "options_name": "vim",
+      "url": "/vim/",
+      "status": "S1647593306X1647614906",
+      "upstream": "rsync://ftp.vim.org/Vim/",
+      "size": "6.42G"
+    },
+    {
+      "cname": "virtualbox",
+      "options_name": "virtualbox",
+      "url": "/virtualbox/",
+      "status": "S1647605144X1647626744",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/virtualbox/",
+      "size": "146.72G"
+    },
+    {
+      "cname": "zabbix",
+      "options_name": "zabbix",
+      "url": "/zabbix/",
+      "status": "S1647608036X1647629636",
+      "upstream": "rsync://repo.zabbix.com/mirror/",
+      "size": "91.01G"
+    }
+  ]
+}

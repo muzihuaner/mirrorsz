@@ -1,0 +1,138 @@
+{
+  "extension": "D",
+  "endpoints": [
+    {
+      "label": "scau",
+      "public": true,
+      "resolve": "mirrors.scau.edu.cn",
+      "filter": [
+        "V4",
+        "SSL"
+      ],
+      "range": [
+        "AS4538"
+      ]
+    }
+  ],
+  "site": {
+    "url": "https://mirrors.scau.edu.cn",
+    "abbr": "SCAU",
+    "name": "华南农业大学开源镜像源",
+    "issue": "https://github.com/SCAULUG/contributors/issues",
+    "request": "https://github.com/SCAULUG/contributors/issues",
+    "email": "mirrors at scau edu cn",
+    "group": "QQ Group: 135 916 828",
+    "logo": "https://mirrors.scau.edu.cn/images/scaulug-logo.jpg"
+  },
+  "mirrors": [
+    {
+      "cname": "centos",
+      "url": "/centos",
+      "status": "S1655744613",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/centos/"
+    },
+    {
+      "cname": "archlinux",
+      "url": "/archlinux",
+      "status": "S1655744870",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/archlinux/"
+    },
+    {
+      "cname": "deepin-cd",
+      "url": "/deepin-cd",
+      "status": "S1655744492",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/deepin-cd/"
+    },
+    {
+      "cname": "deepin",
+      "url": "/deepin",
+      "status": "S1655744870",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/deepin/"
+    },
+    {
+      "cname": "debian-security",
+      "url": "/debian-security",
+      "status": "S1655744571",
+      "upstream": "rsync://rsync.mirrors.ustc.edu.cn/debian-security/"
+    },
+    {
+      "cname": "debian",
+      "url": "/debian",
+      "status": "S1655746316",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/debian/"
+    },
+    {
+      "cname": "epel",
+      "url": "/epel",
+      "status": "S1655744740",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/epel/"
+    },
+    {
+      "cname": "linuxmint-cd",
+      "url": "/linuxmint-cd",
+      "status": "S1655744633",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/linuxmint-cd/"
+    },
+    {
+      "cname": "openeuler",
+      "url": "/openeuler",
+      "status": "S1655744920",
+      "upstream": "rsync://root@121.36.97.194/openeuler"
+    },
+    {
+      "cname": "proxmox",
+      "url": "/proxmox",
+      "status": "S1655744908",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/proxmox/"
+    },
+    {
+      "cname": "raspberrypi",
+      "url": "/raspberrypi",
+      "status": "S1655744916",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/raspberrypi/"
+    },
+    {
+      "cname": "raspbian",
+      "url": "/raspbian",
+      "status": "S1655745501",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/raspbian/"
+    },
+    {
+      "cname": "termux",
+      "url": "/termux",
+      "status": "S1655745035",
+      "upstream": "rsync://rsync.mirrors.ustc.edu.cn/termux/"
+    },
+    {
+      "cname": "ubuntu-cdimage",
+      "url": "/ubuntu-cdimage",
+      "status": "S1655744975",
+      "upstream": "rsync://rsync.mirrors.ustc.edu.cn/ubuntu-cdimage/"
+    },
+    {
+      "cname": "ubuntu",
+      "url": "/ubuntu",
+      "status": "S1655746259",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/ubuntu/"
+    },
+    {
+      "cname": "ubuntukylin-cdimage",
+      "url": "/ubuntukylin-cdimage",
+      "status": "S1655745070",
+      "upstream": "cdimage.ubuntukylin.com::releases/professional/"
+    },
+    {
+      "cname": "ubuntukylin",
+      "url": "/ubuntukylin",
+      "status": "S1655745102",
+      "upstream": "archive.ubuntukylin.com::ubuntukylin/"
+    },
+    {
+      "cname": "nodejs-release",
+      "url": "/nodejs-release",
+      "status": "S1655750697",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/nodejs-release/"
+    }
+  ],
+  "info": []
+}

@@ -1,0 +1,394 @@
+{
+  "extension": "D",
+  "endpoints": [
+    {
+      "label": "uestc-campus-ip6",
+      "public": false,
+      "resolve": "mirrors.uestc.cn",
+      "filter": [
+        "V6",
+        "NOSSL"
+      ],
+      "range": [
+        "2001:250:2000::/48",
+        "2001:da8:6000::/48",
+        "240c:c983::/32"
+      ]
+    },
+    {
+      "label": "uestc-campus-ip4",
+      "public": false,
+      "resolve": "mirrors.uestc.cn",
+      "filter": [
+        "V4",
+        "NOSSL"
+      ],
+      "range": [
+        "202.112.14.0/23",
+        "202.115.0.0/19",
+        "58.200.7.128/25",
+        "210.41.96.0/20",
+        "211.83.96.0/20",
+        "218.194.32.0/19",
+        "222.197.160.0/19",
+        "121.48.152.0/21",
+        "121.48.160.0/20",
+        "121.49.64.0/18",
+        "113.54.128.0/17",
+        "202.98.105.128/25",
+        "182.138.127.0/24",
+        "125.71.228.0/23",
+        "117.173.139.0/24"
+      ]
+    },
+    {
+      "label": "uestc-campus-chinanet",
+      "public": false,
+      "resolve": "mirrors.uestc.cn",
+      "filter": [
+        "V4",
+        "NOSSL"
+      ],
+      "range": [
+        "202.98.105.128/25",
+        "182.138.127.0/24",
+        "125.71.228.0/23"
+      ]
+    }
+  ],
+  "site": {
+    "logo": "https://uestclug.org/images/logo.png",
+    "abbr": "UESTC LUG",
+    "name": "电子科技大学镜像站",
+    "homepage": "https://uestclug.github.io/",
+    "issue": "https://gitlab.com/uestclug/uestc-mirrors-preview/-/issues",
+    "request": "https://gitlab.com/uestclug/uestc-mirrors-preview/-/issues",
+    "email": "lug.uestc@gmail.com",
+    "group": "QQ: https://join.uestclug.org / Telegram: WIP",
+    "note": "目前仅限校内。",
+    "url": "http://mirrors.uestc.cn",
+    "disk": "13.25T / 15.19T"
+  },
+  "mirrors": [
+    {
+      "name": "CTAN",
+      "icon": "format-text",
+      "url": "/CTAN",
+      "home": "https://ctan.org",
+      "document": "",
+      "type": "app",
+      "status": "S1650975088",
+      "help": "http://mirrors.uestc.cn/app/CTAN",
+      "cname": "CTAN"
+    },
+    {
+      "name": "Adobe Fonts",
+      "icon": "adobe",
+      "url": "/adobe-fonts",
+      "home": "https://fonts.adobe.com/",
+      "document": "",
+      "type": "app",
+      "status": "S1650974463",
+      "help": "http://mirrors.uestc.cn/app/adobe-fonts",
+      "cname": "adobe-fonts"
+    },
+    {
+      "name": "F-droid",
+      "cname": "fdroid",
+      "icon": "cellphone-android",
+      "url": "/f-droid",
+      "home": "https://f-droid.org/",
+      "document": "",
+      "type": "app",
+      "status": "S1650974598",
+      "help": "http://mirrors.uestc.cn/app/f-droid"
+    },
+    {
+      "name": "GNU",
+      "url": "/gnu",
+      "home": "https://www.gnu.org/",
+      "document": "",
+      "type": "app",
+      "status": "S1650976026",
+      "help": "http://mirrors.uestc.cn/app/gnu",
+      "cname": "gnu"
+    },
+    {
+      "name": "Nginx",
+      "url": "/nginx",
+      "home": "https://www.nginx.com/",
+      "document": "",
+      "type": "app",
+      "status": "S1650977730",
+      "help": "http://mirrors.uestc.cn/app/nginx",
+      "cname": "nginx"
+    },
+    {
+      "name": "NodeJs",
+      "icon": "nodejs",
+      "url": "/nodejs-release",
+      "home": "https://nodejs.org",
+      "document": "",
+      "type": "app",
+      "status": "S1650975189",
+      "help": "http://mirrors.uestc.cn/app/nodejs-release",
+      "cname": "nodejs-release"
+    },
+    {
+      "name": "Kubernetes",
+      "icon": "kubernetes",
+      "url": "/kubernetes",
+      "home": "https://kubernetes.io/",
+      "document": "",
+      "type": "app",
+      "status": "Y1650974582",
+      "help": "http://mirrors.uestc.cn/app/kubernetes",
+      "cname": "kubernetes"
+    },
+    {
+      "name": "Docker CE",
+      "icon": "docker",
+      "url": "/docker-ce",
+      "home": "https://docker.com/",
+      "document": "",
+      "type": "app",
+      "status": "S1650977705",
+      "help": "http://mirrors.uestc.cn/app/docker-ce",
+      "cname": "docker-ce"
+    },
+    {
+      "name": "Alpine",
+      "url": "/alpine",
+      "home": "https://alpinelinux.org",
+      "document": "",
+      "type": "linux",
+      "status": "S1650975033",
+      "help": "http://mirrors.uestc.cn/repo/alpine",
+      "cname": "alpine"
+    },
+    {
+      "name": "Arch Linux",
+      "icon": "arch",
+      "url": "/archlinux",
+      "home": "https://www.archlinux.org/",
+      "document": "",
+      "type": "linux",
+      "status": "S1650974838",
+      "help": "http://mirrors.uestc.cn/repo/archlinux",
+      "cname": "archlinux"
+    },
+    {
+      "name": "Archlinux CN",
+      "icon": "arch",
+      "url": "/archlinuxcn",
+      "home": "https://www.archlinuxcn.org",
+      "document": "",
+      "type": "linux",
+      "status": "S1650975485",
+      "help": "http://mirrors.uestc.cn/repo/archlinuxcn",
+      "cname": "archlinuxcn"
+    },
+    {
+      "name": "BlackArch",
+      "icon": "arch",
+      "url": "/blackarch",
+      "home": "https://blackarch.org",
+      "document": "",
+      "type": "linux",
+      "status": "S1650976802",
+      "help": "http://mirrors.uestc.cn/repo/blackarch",
+      "cname": "blackarch"
+    },
+    {
+      "name": "Centos",
+      "icon": "centos",
+      "url": "/centos",
+      "home": "https://www.centos.org/",
+      "document": "",
+      "type": "linux",
+      "status": "S1650975667",
+      "help": "http://mirrors.uestc.cn/repo/centos",
+      "cname": "centos"
+    },
+    {
+      "name": "Debian CD",
+      "icon": "debian",
+      "url": "/debian-cd",
+      "home": "https://www.debian.org",
+      "document": "",
+      "type": "linux",
+      "status": "S1650975903",
+      "help": "http://mirrors.uestc.cn/repo/debian-cd",
+      "cname": "debian-cd"
+    },
+    {
+      "name": "Debian",
+      "icon": "debian",
+      "url": "/debian",
+      "home": "https://www.debian.org",
+      "document": "",
+      "type": "linux",
+      "status": "S1650975862",
+      "help": "http://mirrors.uestc.cn/repo/debian",
+      "cname": "debian"
+    },
+    {
+      "name": "Debian Security",
+      "icon": "debian",
+      "url": "/debian-security",
+      "home": "https://www.debian.org",
+      "document": "",
+      "type": "linux",
+      "status": "S1650975063",
+      "help": "http://mirrors.uestc.cn/repo/debian-security",
+      "cname": "debian-security"
+    },
+    {
+      "name": "Deepin",
+      "url": "/deepin",
+      "home": "https://deepin.org",
+      "document": "",
+      "type": "linux",
+      "status": "S1650977108",
+      "help": "http://mirrors.uestc.cn/repo/deepin",
+      "cname": "deepin"
+    },
+    {
+      "name": "Deepin CD",
+      "url": "/deepin-cd",
+      "home": "https://deepin.org",
+      "document": "",
+      "type": "linux",
+      "status": "S1650977222",
+      "help": "http://mirrors.uestc.cn/repo/deepin-cd",
+      "cname": "deepin-cd"
+    },
+    {
+      "name": "EndeavourOS",
+      "url": "/endeavouros",
+      "home": "https://endeavouros.com",
+      "document": "",
+      "type": "linux",
+      "status": "S1650976022",
+      "help": "http://mirrors.uestc.cn/repo/endeavouros",
+      "cname": "endeavouros"
+    },
+    {
+      "name": "Kali",
+      "url": "/kali",
+      "home": "https://www.kali.org/",
+      "document": "",
+      "type": "linux",
+      "status": "S1650976766",
+      "help": "http://mirrors.uestc.cn/repo/kali",
+      "cname": "kali"
+    },
+    {
+      "name": "Kali Images",
+      "url": "/kali-images",
+      "home": "https://www.kali.org/",
+      "document": "",
+      "type": "linux",
+      "status": "S1650976683",
+      "help": "http://mirrors.uestc.cn/repo/kali-images",
+      "cname": "kali-images"
+    },
+    {
+      "name": "Linux Mint",
+      "icon": "linux-mint",
+      "url": "/linuxmint",
+      "home": "https://linuxmint.com/",
+      "document": "",
+      "type": "linux",
+      "status": "S1650976939",
+      "help": "http://mirrors.uestc.cn/repo/linuxmint",
+      "cname": "linuxmint"
+    },
+    {
+      "name": "Manjaro",
+      "icon": "manjaro",
+      "url": "/manjaro",
+      "home": "https://manjaro.org/",
+      "document": "",
+      "type": "linux",
+      "status": "S1650974947",
+      "help": "http://mirrors.uestc.cn/repo/manjaro",
+      "cname": "manjaro"
+    },
+    {
+      "name": "OpenWRT",
+      "icon": "router-wireless",
+      "url": "/openwrt",
+      "home": "https://openwrt.org/",
+      "document": "",
+      "type": "linux",
+      "status": "S1650979370",
+      "help": "http://mirrors.uestc.cn/repo/openwrt",
+      "cname": "openwrt"
+    },
+    {
+      "name": "packman",
+      "url": "/packman",
+      "home": "http://packman.links2linux.org",
+      "document": "",
+      "type": "linux",
+      "status": "S1650976871",
+      "help": "http://mirrors.uestc.cn/repo/packman",
+      "cname": "packman"
+    },
+    {
+      "name": "Proxmox",
+      "url": "/proxmox",
+      "home": "https://proxmox.com",
+      "document": "",
+      "type": "linux",
+      "status": "S1650974704",
+      "help": "http://mirrors.uestc.cn/repo/proxmox",
+      "cname": "proxmox"
+    },
+    {
+      "name": "Raspbian",
+      "icon": "raspberry-pi",
+      "url": "/raspbian",
+      "home": "https://www.raspbian.org/",
+      "document": "",
+      "type": "linux",
+      "status": "S1650977385",
+      "help": "http://mirrors.uestc.cn/repo/raspbian",
+      "cname": "raspbian"
+    },
+    {
+      "name": "Termux",
+      "url": "/termux",
+      "home": "https://termux.com/",
+      "document": "",
+      "type": "linux",
+      "status": "S1650977608",
+      "help": "http://mirrors.uestc.cn/repo/termux",
+      "cname": "termux"
+    },
+    {
+      "name": "Ubuntu ISO",
+      "icon": "ubuntu",
+      "url": "/ubuntu-releases",
+      "home": "https://ubuntu.com/",
+      "document": "",
+      "type": "linux",
+      "status": "S1650977703",
+      "help": "http://mirrors.uestc.cn/repo/ubuntu-releases",
+      "cname": "ubuntu-releases"
+    },
+    {
+      "name": "Ubuntu",
+      "icon": "ubuntu",
+      "url": "/ubuntu",
+      "home": "https://ubuntu.com/",
+      "document": "",
+      "type": "linux",
+      "status": "S1650978479",
+      "help": "http://mirrors.uestc.cn/repo/ubuntu",
+      "cname": "ubuntu"
+    }
+  ],
+  "info": []
+}

@@ -1,0 +1,221 @@
+{
+  "site": {
+    "url": "https://mirrors.bupt.edu.cn",
+    "logo": "https://www.bupt.edu.cn/images/logosmall.png",
+    "abbr": "BUPT",
+    "name": "北京邮电大学开源软件镜像站",
+    "issue": "https://github.com/BYRIO/BYRIO-mirrors/issues",
+    "request": "https://github.com/BYRIO/BYRIO-mirrors/issues"
+  },
+  "info": [],
+  "mirrors": [
+    {
+      "cname": "HHVM",
+      "options_name": "HHVM",
+      "url": "/HHVM",
+      "status": "F1652622335X1652643935",
+      "upstream": "rsync://rsync.osuosl.org/hhvm/",
+      "size": "unknown"
+    },
+    {
+      "cname": "NetBSD",
+      "options_name": "NetBSD",
+      "url": "/NetBSD",
+      "status": "S1652706437X1652728037",
+      "upstream": "rsync://mirrors6.tuna.tsinghua.edu.cn/NetBSD/",
+      "size": "734.98G"
+    },
+    {
+      "cname": "OpenBSD",
+      "options_name": "OpenBSD",
+      "url": "/OpenBSD",
+      "status": "S1652694569X1652716169",
+      "upstream": "rsync://mirrors6.tuna.tsinghua.edu.cn/OpenBSD/",
+      "size": "1.66T"
+    },
+    {
+      "cname": "archlinux",
+      "options_name": "archlinux",
+      "url": "/archlinux",
+      "status": "F1652621107X1652642707",
+      "upstream": "rsync://mirrors.kernel.org/archlinux/",
+      "size": "unknown"
+    },
+    {
+      "cname": "archlinuxarm",
+      "options_name": "archlinuxarm",
+      "url": "/archlinuxarm",
+      "status": "S1652686924X1652708524",
+      "upstream": "rsync://mirrors6.tuna.tsinghua.edu.cn/archlinuxarm/",
+      "size": "89.15G"
+    },
+    {
+      "cname": "archlinuxcn",
+      "options_name": "archlinuxcn",
+      "url": "/archlinuxcn",
+      "status": "S1652689514X1652711114",
+      "upstream": "rsync://mirrors6.tuna.tsinghua.edu.cn/archlinuxcn/",
+      "size": "75.16G"
+    },
+    {
+      "cname": "centos-vault",
+      "options_name": "centos-vault",
+      "url": "/centos-vault",
+      "status": "S1652703634X1652725234",
+      "upstream": "rsync://linuxsoft.cern.ch/centos-vault/",
+      "size": "5.98T"
+    },
+    {
+      "cname": "centos",
+      "options_name": "centos",
+      "url": "/centos",
+      "status": "F1652621069X1652642669",
+      "upstream": "rsync://mirrors.kernel.org/mirrors/centos/",
+      "size": "unknown"
+    },
+    {
+      "cname": "ceph",
+      "options_name": "ceph",
+      "url": "/ceph",
+      "status": "S1652687789X1652709389",
+      "upstream": "rsync://mirrors6.tuna.tsinghua.edu.cn/ceph/",
+      "size": "2.19T"
+    },
+    {
+      "cname": "debian-cd",
+      "options_name": "debian-cd",
+      "url": "/debian-cd",
+      "status": "S1652688706X1652710306",
+      "upstream": "rsync://cdimage.debian.org/debian-cd/",
+      "size": "221.84G"
+    },
+    {
+      "cname": "debian-security",
+      "options_name": "debian-security",
+      "url": "/debian-security",
+      "status": "S1652708466X1652730066",
+      "upstream": "rsync://mirrors6.tuna.tsinghua.edu.cn/debian-security/",
+      "size": "181.95G"
+    },
+    {
+      "cname": "debian",
+      "options_name": "debian",
+      "url": "/debian",
+      "status": "S1652706368X1652727968",
+      "upstream": "rsync://mirrors6.tuna.tsinghua.edu.cn/debian/",
+      "size": "2.00T"
+    },
+    {
+      "cname": "docker-ce",
+      "options_name": "docker-ce",
+      "url": "/docker-ce",
+      "status": "S1652686933X1652708533",
+      "upstream": "rsync://mirrors6.tuna.tsinghua.edu.cn/docker-ce/",
+      "size": "640.16G"
+    },
+    {
+      "cname": "epel",
+      "options_name": "epel",
+      "url": "/epel",
+      "status": "S1652687939X1652709539",
+      "upstream": "rsync://mirrors6.tuna.tsinghua.edu.cn/epel/",
+      "size": "395.11G"
+    },
+    {
+      "cname": "gentoo-portage.git",
+      "options_name": "gentoo-portage.git",
+      "url": "/gentoo-portage.git",
+      "status": "S1652697670X1652719270",
+      "upstream": "git://github.com/gentoo-mirror/gentoo.git",
+      "size": "5.4G"
+    },
+    {
+      "cname": "gentoo",
+      "options_name": "gentoo",
+      "url": "/gentoo",
+      "status": "Y1652636173",
+      "upstream": "rsync://ftp.jaist.ac.jp/pub/Linux/Gentoo/",
+      "size": "unknown"
+    },
+    {
+      "cname": "gitlab-ce",
+      "options_name": "gitlab-ce",
+      "url": "/gitlab-ce",
+      "status": "S1652687588X1652709188",
+      "upstream": "rsync://mirrors6.tuna.tsinghua.edu.cn/gitlab-ce/",
+      "size": "2.68T"
+    },
+    {
+      "cname": "gitlab-runner",
+      "options_name": "gitlab-runner",
+      "url": "/gitlab-runner",
+      "status": "S1652708218X1652729818",
+      "upstream": "rsync://mirrors6.tuna.tsinghua.edu.cn/gitlab-runner/",
+      "size": "392.69G"
+    },
+    {
+      "cname": "homebrew-bottles",
+      "options_name": "homebrew-bottles",
+      "url": "/homebrew-bottles",
+      "status": "S1652624594X1652710994",
+      "upstream": "rsync://mirrors6.tuna.tsinghua.edu.cn/homebrew-bottles/",
+      "size": "365.78G"
+    },
+    {
+      "cname": "kali-images",
+      "options_name": "kali-images",
+      "url": "/kali-images",
+      "status": "Y1652707093O1652599902",
+      "upstream": "rsync://ftp.halifax.rwth-aachen.de/kali-images/",
+      "size": "159.37G"
+    },
+    {
+      "cname": "kali",
+      "options_name": "kali",
+      "url": "/kali",
+      "status": "S1652705180X1652726780",
+      "upstream": "rsync://mirrors6.tuna.tsinghua.edu.cn/kali/",
+      "size": "1.44T"
+    },
+    {
+      "cname": "kubernetes",
+      "options_name": "kubernetes",
+      "url": "/kubernetes",
+      "status": "S1652707573X1652729173",
+      "upstream": "rsync://mirrors6.tuna.tsinghua.edu.cn/kubernetes/",
+      "size": "62.06G"
+    },
+    {
+      "cname": "ubuntu-cdimage",
+      "options_name": "ubuntu-cdimage",
+      "url": "/ubuntu-cdimage",
+      "status": "S1652689332X1652710932",
+      "upstream": "rsync://cdimage.ubuntu.com/cdimage/",
+      "size": "953.29G"
+    },
+    {
+      "cname": "ubuntu-ports",
+      "options_name": "ubuntu-ports",
+      "url": "/ubuntu-ports",
+      "status": "S1652690148X1652711748",
+      "upstream": "rsync://ports.ubuntu.com/ubuntu-ports/",
+      "size": "2.34T"
+    },
+    {
+      "cname": "ubuntu-releases",
+      "options_name": "ubuntu-releases",
+      "url": "/ubuntu-releases",
+      "status": "S1652692760X1652714360",
+      "upstream": "rsync://rsync.releases.ubuntu.com/releases/",
+      "size": "26.93G"
+    },
+    {
+      "cname": "ubuntu",
+      "options_name": "ubuntu",
+      "url": "/ubuntu",
+      "status": "S1652702116X1652723716",
+      "upstream": "rsync://archive.ubuntu.com/ubuntu/",
+      "size": "1.87T"
+    }
+  ]
+}

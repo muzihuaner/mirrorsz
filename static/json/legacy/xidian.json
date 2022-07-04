@@ -1,0 +1,161 @@
+{
+  "version": 1.5,
+  "site": {
+    "url": "https://linux.xidian.edu.cn/mirrors",
+    "logo": "https://linux.xidian.edu.cn/img/xdosc.svg",
+    "logo_darkmode": "https://linux.xidian.edu.cn/img/xdosc.svg",
+    "abbr": "Xidian",
+    "name": "西电开源软件镜像站",
+    "homepage": "https://linux.xidian.edu.cn",
+    "issue": "https://linux.xidian.edu.cn/git/xdlinux/issues",
+    "group": "Telegram: https://t.me/xdosc",
+    "note": "仅面向校内使用"
+  },
+  "mirrors": [
+    {
+      "cname": "anthon",
+      "desc": "",
+      "url": "/anthon",
+      "status": "F1654952410O1654896610"
+    },
+    {
+      "cname": "archlinux",
+      "desc": "",
+      "url": "/archlinux",
+      "status": "S1654933334"
+    },
+    {
+      "cname": "archlinuxcn",
+      "desc": "",
+      "url": "/archlinuxcn",
+      "status": "S1654933403"
+    },
+    {
+      "cname": "centos",
+      "desc": "反向代理",
+      "url": "/centos",
+      "status": "R"
+    },
+    {
+      "cname": "centos-stream",
+      "desc": "反向代理",
+      "url": "/centos-stream",
+      "status": "R"
+    },
+    {
+      "cname": "debian",
+      "desc": "",
+      "url": "/debian",
+      "status": "F1654952602O1654866337"
+    },
+    {
+      "cname": "debian-cd",
+      "desc": "反向代理",
+      "url": "/debian-cd",
+      "status": "R"
+    },
+    {
+      "cname": "debian-cd-nonfree",
+      "desc": "",
+      "url": "/debian-cd-nonfree",
+      "status": "S1654933610"
+    },
+    {
+      "cname": "debian-security",
+      "desc": "",
+      "url": "/debian-security",
+      "status": "F1654952666O1654866346"
+    },
+    {
+      "cname": "deepin",
+      "desc": "",
+      "url": "/deepin",
+      "status": "S1654933638"
+    },
+    {
+      "cname": "docker-ce",
+      "desc": "反向代理",
+      "url": "/docker-ce",
+      "status": "R"
+    },
+    {
+      "cname": "kali",
+      "desc": "",
+      "url": "/kali",
+      "status": "F1654952810O1654866577"
+    },
+    {
+      "cname": "kali-images",
+      "desc": "",
+      "url": "/kali-images",
+      "status": "F1654952813O1654897172"
+    },
+    {
+      "cname": "manjaro",
+      "desc": "",
+      "url": "/manjaro",
+      "status": "F1654953164O1654897268"
+    },
+    {
+      "cname": "pypi",
+      "desc": "反向代理",
+      "url": "/pypi",
+      "status": "R"
+    },
+    {
+      "cname": "raspbian",
+      "desc": "",
+      "url": "/raspbian",
+      "status": "F1654953226O1654882605"
+    },
+    {
+      "cname": "rfc",
+      "desc": "",
+      "url": "/rfc",
+      "status": "S1654937777"
+    },
+    {
+      "cname": "termux",
+      "desc": "",
+      "url": "/termux",
+      "status": "S1654937796"
+    },
+    {
+      "cname": "ubuntu",
+      "desc": "",
+      "url": "/ubuntu",
+      "status": "S1654942540"
+    },
+    {
+      "cname": "ubuntu-releases",
+      "desc": "",
+      "url": "/ubuntu-releases",
+      "status": "S1654938234"
+    }
+  ],
+  "info": [],
+  "extension": "D",
+  "endpoints": [
+    {
+      "label": "xidian",
+      "public": false,
+      "resolve": "linux.xidian.edu.cn/mirrors",
+      "filter": [
+        "V4",
+        "SSL",
+        "NOSSL"
+      ],
+      "range": [
+        "222.25.128.0/18",
+        "219.245.64.0/18",
+        "219.244.112.0/20",
+        "210.27.0.0/20",
+        "202.117.112.0/20",
+        "115.155.32.0/19",
+        "115.155.0.0/19",
+        "113.200.174.0/24",
+        "113.140.11.0/24"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "site": {
+    "url": "https://mirror.lzu.edu.cn",
+    "abbr": "LZU",
+    "name": "兰州大学开源社区镜像站",
+    "issue": "https://github.com/LZUOSS/Mirror",
+    "email": "oss.lzu.edu.cn at gmail.com"
+  },
+  "info": [],
+  "mirrors": [
+    {
+      "cname": "CPAN",
+      "url": "/CPAN/",
+      "status": "S1631045339"
+    },
+    {
+      "cname": "CRAN",
+      "url": "/CRAN/",
+      "status": "S1631046313"
+    },
+    {
+      "cname": "CTAN",
+      "url": "/CTAN/",
+      "status": "S1631046928"
+    },
+    {
+      "cname": "alpine",
+      "url": "/alpine/",
+      "status": "S1631052978"
+    },
+    {
+      "cname": "anthon",
+      "url": "/anthon/",
+      "status": "S1631034594"
+    },
+    {
+      "cname": "archlinux",
+      "url": "/archlinux/",
+      "status": "S1631095331"
+    },
+    {
+      "cname": "archlinuxcn",
+      "url": "/archlinuxcn/",
+      "status": "S1631095259"
+    },
+    {
+      "cname": "blackarch",
+      "url": "/blackarch/",
+      "status": "S1631039418"
+    },
+    {
+      "cname": "centos",
+      "url": "/centos/",
+      "status": "S1631041519"
+    },
+    {
+      "cname": "centos-altarch",
+      "url": "/centos-altarch/",
+      "status": "YO1617650528"
+    },
+    {
+      "cname": "cygwin",
+      "url": "/cygwin/",
+      "status": "S1631046965"
+    },
+    {
+      "cname": "debian",
+      "url": "/debian/",
+      "status": "S1631078164"
+    },
+    {
+      "cname": "debian-cd",
+      "url": "/debian-cd/",
+      "status": "S1631046613"
+    },
+    {
+      "cname": "debian-security",
+      "url": "/debian-security/",
+      "status": "S1631076766"
+    },
+    {
+      "cname": "deepin",
+      "url": "/deepin/",
+      "status": "S1631043384"
+    },
+    {
+      "cname": "deepin-cd",
+      "url": "/deepin-releases/",
+      "status": "S1631043008"
+    },
+    {
+      "cname": "elrepo",
+      "url": "/elrepo/",
+      "status": "S1631041218"
+    },
+    {
+      "cname": "epel",
+      "url": "/epel/",
+      "status": "S1631042767"
+    },
+    {
+      "cname": "fedora",
+      "url": "/fedora/",
+      "status": "S1631039778"
+    },
+    {
+      "cname": "FreeBSD",
+      "url": "/freebsd/",
+      "status": "FO1630607420"
+    },
+    {
+      "cname": "gentoo",
+      "url": "/gentoo/",
+      "status": "S1631041516"
+    },
+    {
+      "cname": "gentoo-portage",
+      "url": "/gentoo-portage/",
+      "status": "S1631036919"
+    },
+    {
+      "cname": "gnu",
+      "url": "/gnu/",
+      "status": "S1631048460"
+    },
+    {
+      "cname": "kernel",
+      "url": "/kernel/",
+      "status": "S1631048565"
+    },
+    {
+      "cname": "lfs",
+      "url": "/lfs/",
+      "status": "S1631048410"
+    },
+    {
+      "cname": "loongnix",
+      "url": "/loongnix/",
+      "status": "U"
+    },
+    {
+      "cname": "openeuler",
+      "url": "/openeuler/",
+      "status": "S1631077378"
+    },
+    {
+      "cname": "opensuse",
+      "url": "/opensuse/",
+      "status": "S1631054824"
+    },
+    {
+      "cname": "openwrt",
+      "url": "/openwrt/",
+      "status": "U"
+    },
+    {
+      "cname": "rpmfusion",
+      "url": "/rpmfusion/",
+      "status": "YO1607973444"
+    },
+    {
+      "cname": "ubuntu",
+      "url": "/ubuntu/",
+      "status": "S1631035373"
+    },
+    {
+      "cname": "ubuntu-releases",
+      "url": "/ubuntu-releases/",
+      "status": "S1631041208"
+    },
+    {
+      "cname": "ubuntukylin",
+      "url": "/ubuntukylin/",
+      "status": "S1616731209"
+    }
+  ]
+}

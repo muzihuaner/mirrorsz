@@ -1,0 +1,659 @@
+{
+  "version": 1.5,
+  "site": {
+    "name": "Mirrors@NWAFU",
+    "url": "https://mirrors.nwafu.edu.cn",
+    "abbr": "NWAFU",
+    "big": "/speedtest/1GB.bin",
+    "logo": "https://mirrors.nwafu.edu.cn/help/assets/images/favicon.png",
+    "note": "Rate limit policy: see https://mirrors.nwafu.edu.cn/help/limits/"
+  },
+  "info": [
+    {
+      "category": "os",
+      "distro": "archlinux",
+      "urls": [
+        {
+          "name": "archlinux-x86_64.iso",
+          "url": "/archlinux/iso/latest/archlinux-x86_64.iso"
+        },
+        {
+          "name": "archlinux-2022.07.01-x86_64.iso",
+          "url": "/archlinux/iso/latest/archlinux-2022.07.01-x86_64.iso"
+        }
+      ]
+    },
+    {
+      "category": "os",
+      "distro": "centos",
+      "urls": [
+        {
+          "name": "CentOS-Stream-8-x86_64-latest-dvd1.iso",
+          "url": "/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-latest-dvd1.iso"
+        },
+        {
+          "name": "CentOS-Stream-8-x86_64-latest-boot.iso",
+          "url": "/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-latest-boot.iso"
+        },
+        {
+          "name": "CentOS-Stream-8-x86_64-20220627-dvd1.iso",
+          "url": "/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-20220627-dvd1.iso"
+        },
+        {
+          "name": "CentOS-Stream-8-x86_64-20220627-boot.iso",
+          "url": "/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-20220627-boot.iso"
+        },
+        {
+          "name": "CentOS-Stream-8-ppc64le-latest-dvd1.iso",
+          "url": "/centos/8-stream/isos/ppc64le/CentOS-Stream-8-ppc64le-latest-dvd1.iso"
+        },
+        {
+          "name": "CentOS-Stream-8-ppc64le-latest-boot.iso",
+          "url": "/centos/8-stream/isos/ppc64le/CentOS-Stream-8-ppc64le-latest-boot.iso"
+        },
+        {
+          "name": "CentOS-Stream-8-ppc64le-20220627-dvd1.iso",
+          "url": "/centos/8-stream/isos/ppc64le/CentOS-Stream-8-ppc64le-20220627-dvd1.iso"
+        },
+        {
+          "name": "CentOS-Stream-8-ppc64le-20220627-boot.iso",
+          "url": "/centos/8-stream/isos/ppc64le/CentOS-Stream-8-ppc64le-20220627-boot.iso"
+        },
+        {
+          "name": "CentOS-Stream-8-aarch64-latest-dvd1.iso",
+          "url": "/centos/8-stream/isos/aarch64/CentOS-Stream-8-aarch64-latest-dvd1.iso"
+        },
+        {
+          "name": "CentOS-Stream-8-aarch64-latest-boot.iso",
+          "url": "/centos/8-stream/isos/aarch64/CentOS-Stream-8-aarch64-latest-boot.iso"
+        },
+        {
+          "name": "CentOS-Stream-8-aarch64-20220627-dvd1.iso",
+          "url": "/centos/8-stream/isos/aarch64/CentOS-Stream-8-aarch64-20220627-dvd1.iso"
+        },
+        {
+          "name": "CentOS-Stream-8-aarch64-20220627-boot.iso",
+          "url": "/centos/8-stream/isos/aarch64/CentOS-Stream-8-aarch64-20220627-boot.iso"
+        },
+        {
+          "name": "CentOS-7-x86_64-NetInstall-2009.iso",
+          "url": "/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-NetInstall-2009.iso"
+        },
+        {
+          "name": "CentOS-7-x86_64-NetInstall-2009.iso",
+          "url": "/centos/7/isos/x86_64/CentOS-7-x86_64-NetInstall-2009.iso"
+        },
+        {
+          "name": "CentOS-7-x86_64-Minimal-2009.iso",
+          "url": "/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso"
+        },
+        {
+          "name": "CentOS-7-x86_64-Minimal-2009.iso",
+          "url": "/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso"
+        },
+        {
+          "name": "CentOS-7-x86_64-Everything-2009.iso",
+          "url": "/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Everything-2009.iso"
+        },
+        {
+          "name": "CentOS-7-x86_64-Everything-2009.iso",
+          "url": "/centos/7/isos/x86_64/CentOS-7-x86_64-Everything-2009.iso"
+        },
+        {
+          "name": "CentOS-7-x86_64-DVD-2009.iso",
+          "url": "/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-DVD-2009.iso"
+        },
+        {
+          "name": "CentOS-7-x86_64-DVD-2009.iso",
+          "url": "/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-2009.iso"
+        }
+      ]
+    },
+    {
+      "category": "os",
+      "distro": "openeuler",
+      "urls": [
+        {
+          "name": "openEuler-22.03-LTS-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-22.03-LTS/ISO/x86_64/openEuler-22.03-LTS-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-22.03-LTS-source-dvd.iso",
+          "url": "/openeuler/openEuler-22.03-LTS/ISO/source/openEuler-22.03-LTS-source-dvd.iso"
+        },
+        {
+          "name": "openEuler-22.03-LTS-netinst-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-22.03-LTS/ISO/x86_64/openEuler-22.03-LTS-netinst-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-22.03-LTS-netinst-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-22.03-LTS/ISO/aarch64/openEuler-22.03-LTS-netinst-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-22.03-LTS-everything-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-22.03-LTS/ISO/x86_64/openEuler-22.03-LTS-everything-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-22.03-LTS-everything-debug-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-22.03-LTS/ISO/x86_64/openEuler-22.03-LTS-everything-debug-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-22.03-LTS-everything-debug-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-22.03-LTS/ISO/aarch64/openEuler-22.03-LTS-everything-debug-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-22.03-LTS-everything-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-22.03-LTS/ISO/aarch64/openEuler-22.03-LTS-everything-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-22.03-LTS-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-22.03-LTS/ISO/aarch64/openEuler-22.03-LTS-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-21.09-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-21.09/ISO/x86_64/openEuler-21.09-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-21.09-source-dvd.iso",
+          "url": "/openeuler/openEuler-21.09/ISO/source/openEuler-21.09-source-dvd.iso"
+        },
+        {
+          "name": "openEuler-21.09-netinst-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-21.09/ISO/x86_64/openEuler-21.09-netinst-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-21.09-netinst-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-21.09/ISO/aarch64/openEuler-21.09-netinst-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-21.09-everything-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-21.09/ISO/x86_64/openEuler-21.09-everything-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-21.09-everything-debug-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-21.09/ISO/x86_64/openEuler-21.09-everything-debug-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-21.09-everything-debug-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-21.09/ISO/aarch64/openEuler-21.09-everything-debug-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-21.09-everything-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-21.09/ISO/aarch64/openEuler-21.09-everything-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-21.09-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-21.09/ISO/aarch64/openEuler-21.09-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-21.03-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-21.03/ISO/x86_64/openEuler-21.03-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-21.03-source-dvd.iso",
+          "url": "/openeuler/openEuler-21.03/ISO/source/openEuler-21.03-source-dvd.iso"
+        },
+        {
+          "name": "openEuler-21.03-netinst-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-21.03/ISO/x86_64/openEuler-21.03-netinst-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-21.03-netinst-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-21.03/ISO/aarch64/openEuler-21.03-netinst-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-21.03-everything-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-21.03/ISO/x86_64/openEuler-21.03-everything-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-21.03-everything-debug-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-21.03/ISO/x86_64/openEuler-21.03-everything-debug-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-21.03-everything-debug-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-21.03/ISO/aarch64/openEuler-21.03-everything-debug-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-21.03-everything-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-21.03/ISO/aarch64/openEuler-21.03-everything-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-21.03-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-21.03/ISO/aarch64/openEuler-21.03-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.09-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-20.09/ISO/x86_64/openEuler-20.09-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.09-source-dvd.iso",
+          "url": "/openeuler/openEuler-20.09/ISO/source/openEuler-20.09-source-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.09-everything-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-20.09/ISO/x86_64/openEuler-20.09-everything-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.09-everything-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-20.09/ISO/aarch64/openEuler-20.09-everything-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.09-debuginfo-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-20.09/ISO/x86_64/openEuler-20.09-debuginfo-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.09-debuginfo-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-20.09/ISO/aarch64/openEuler-20.09-debuginfo-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.09-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-20.09/ISO/aarch64/openEuler-20.09-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS/ISO/x86_64/openEuler-20.03-LTS-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-source-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS/ISO/source/openEuler-20.03-LTS-source-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-everything-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS/ISO/x86_64/openEuler-20.03-LTS-everything-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-everything-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS/ISO/aarch64/openEuler-20.03-LTS-everything-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-debuginfo-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS/ISO/x86_64/openEuler-20.03-LTS-debuginfo-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-debuginfo-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS/ISO/aarch64/openEuler-20.03-LTS-debuginfo-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS/ISO/aarch64/openEuler-20.03-LTS-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP3-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP3/ISO/x86_64/openEuler-20.03-LTS-SP3-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP3-source-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP3/ISO/source/openEuler-20.03-LTS-SP3-source-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP3-netinst-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP3/ISO/x86_64/openEuler-20.03-LTS-SP3-netinst-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP3-netinst-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP3/ISO/aarch64/openEuler-20.03-LTS-SP3-netinst-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP3-everything-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP3/ISO/x86_64/openEuler-20.03-LTS-SP3-everything-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP3-everything-debug-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP3/ISO/x86_64/openEuler-20.03-LTS-SP3-everything-debug-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP3-everything-debug-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP3/ISO/aarch64/openEuler-20.03-LTS-SP3-everything-debug-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP3-everything-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP3/ISO/aarch64/openEuler-20.03-LTS-SP3-everything-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP3-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP3/ISO/aarch64/openEuler-20.03-LTS-SP3-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP2-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP2/ISO/x86_64/openEuler-20.03-LTS-SP2-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP2-source-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP2/ISO/source/openEuler-20.03-LTS-SP2-source-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP2-netinst-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP2/ISO/x86_64/openEuler-20.03-LTS-SP2-netinst-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP2-netinst-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP2/ISO/aarch64/openEuler-20.03-LTS-SP2-netinst-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP2-everything-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP2/ISO/x86_64/openEuler-20.03-LTS-SP2-everything-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP2-everything-debug-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP2/ISO/x86_64/openEuler-20.03-LTS-SP2-everything-debug-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP2-everything-debug-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP2/ISO/aarch64/openEuler-20.03-LTS-SP2-everything-debug-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP2-everything-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP2/ISO/aarch64/openEuler-20.03-LTS-SP2-everything-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP2-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP2/ISO/aarch64/openEuler-20.03-LTS-SP2-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP1-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP1/ISO/x86_64/openEuler-20.03-LTS-SP1-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP1-source-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP1/ISO/source/openEuler-20.03-LTS-SP1-source-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP1-netinst-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP1/ISO/x86_64/openEuler-20.03-LTS-SP1-netinst-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP1-netinst-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP1/ISO/aarch64/openEuler-20.03-LTS-SP1-netinst-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP1-everything-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP1/ISO/x86_64/openEuler-20.03-LTS-SP1-everything-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP1-everything-debug-x86_64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP1/ISO/x86_64/openEuler-20.03-LTS-SP1-everything-debug-x86_64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP1-everything-debug-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP1/ISO/aarch64/openEuler-20.03-LTS-SP1-everything-debug-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP1-everything-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP1/ISO/aarch64/openEuler-20.03-LTS-SP1-everything-aarch64-dvd.iso"
+        },
+        {
+          "name": "openEuler-20.03-LTS-SP1-aarch64-dvd.iso",
+          "url": "/openeuler/openEuler-20.03-LTS-SP1/ISO/aarch64/openEuler-20.03-LTS-SP1-aarch64-dvd.iso"
+        }
+      ]
+    },
+    {
+      "category": "os",
+      "distro": "ubuntu-releases",
+      "urls": [
+        {
+          "name": "ubuntu-22.04-live-server-amd64.iso",
+          "url": "/ubuntu-releases/.pool/ubuntu-22.04-live-server-amd64.iso"
+        },
+        {
+          "name": "ubuntu-22.04-live-server-amd64.iso",
+          "url": "/ubuntu-releases/jammy/ubuntu-22.04-live-server-amd64.iso"
+        },
+        {
+          "name": "ubuntu-22.04-live-server-amd64.iso",
+          "url": "/ubuntu-releases/22.04/ubuntu-22.04-live-server-amd64.iso"
+        },
+        {
+          "name": "ubuntu-22.04-desktop-amd64.iso",
+          "url": "/ubuntu-releases/.pool/ubuntu-22.04-desktop-amd64.iso"
+        },
+        {
+          "name": "ubuntu-22.04-desktop-amd64.iso",
+          "url": "/ubuntu-releases/jammy/ubuntu-22.04-desktop-amd64.iso"
+        },
+        {
+          "name": "ubuntu-22.04-desktop-amd64.iso",
+          "url": "/ubuntu-releases/22.04/ubuntu-22.04-desktop-amd64.iso"
+        },
+        {
+          "name": "ubuntu-20.04.4-live-server-amd64.iso",
+          "url": "/ubuntu-releases/.pool/ubuntu-20.04.4-live-server-amd64.iso"
+        },
+        {
+          "name": "ubuntu-20.04.4-live-server-amd64.iso",
+          "url": "/ubuntu-releases/20.04/ubuntu-20.04.4-live-server-amd64.iso"
+        },
+        {
+          "name": "ubuntu-20.04.4-live-server-amd64.iso",
+          "url": "/ubuntu-releases/focal/ubuntu-20.04.4-live-server-amd64.iso"
+        },
+        {
+          "name": "ubuntu-20.04.4-live-server-amd64.iso",
+          "url": "/ubuntu-releases/20.04.4/ubuntu-20.04.4-live-server-amd64.iso"
+        },
+        {
+          "name": "ubuntu-20.04.4-desktop-amd64.iso",
+          "url": "/ubuntu-releases/.pool/ubuntu-20.04.4-desktop-amd64.iso"
+        },
+        {
+          "name": "ubuntu-20.04.4-desktop-amd64.iso",
+          "url": "/ubuntu-releases/20.04/ubuntu-20.04.4-desktop-amd64.iso"
+        },
+        {
+          "name": "ubuntu-20.04.4-desktop-amd64.iso",
+          "url": "/ubuntu-releases/focal/ubuntu-20.04.4-desktop-amd64.iso"
+        },
+        {
+          "name": "ubuntu-20.04.4-desktop-amd64.iso",
+          "url": "/ubuntu-releases/20.04.4/ubuntu-20.04.4-desktop-amd64.iso"
+        }
+      ]
+    }
+  ],
+  "mirrors": [
+    {
+      "cname": "CPAN",
+      "url": "/cpan",
+      "help": "/help/local-repository/cpan/",
+      "upstream": "rsync://mirrors.bfsu.edu.cn/CPAN/",
+      "syncing": false,
+      "success": true,
+      "lastFinishTime": "2022-07-02T13:24:52.6241333+00:00",
+      "syncStartingTime": "2022-07-02T13:22:38.1683713+00:00",
+      "oldSuccessTime": null,
+      "status": "S1656768292"
+    },
+    {
+      "cname": "CRAN",
+      "url": "/cran",
+      "help": "/help/local-repository/cran/",
+      "upstream": "rsync://mirrors.bfsu.edu.cn/CRAN/",
+      "syncing": true,
+      "success": true,
+      "lastFinishTime": "2022-07-02T10:25:51.8097823+00:00",
+      "syncStartingTime": "2022-07-02T13:22:39.167928+00:00",
+      "oldSuccessTime": null,
+      "status": "Y1656768159"
+    },
+    {
+      "cname": "CTAN",
+      "url": "/ctan",
+      "help": "/help/local-repository/ctan/",
+      "upstream": "rsync://mirrors.bfsu.edu.cn/CTAN/",
+      "syncing": false,
+      "success": true,
+      "lastFinishTime": "2022-07-02T11:23:23.315881+00:00",
+      "syncStartingTime": "2022-07-02T11:22:28.216979+00:00",
+      "oldSuccessTime": null,
+      "status": "S1656761003"
+    },
+    {
+      "cname": "alpine",
+      "url": "/alpine",
+      "help": "/help/local-repository/alpine/",
+      "upstream": "rsync://mirrors.tuna.tsinghua.edu.cn/alpine/",
+      "syncing": false,
+      "success": true,
+      "lastFinishTime": "2022-07-02T13:22:45.0094275+00:00",
+      "syncStartingTime": "2022-07-02T13:22:41.1840389+00:00",
+      "oldSuccessTime": null,
+      "status": "S1656768165"
+    },
+    {
+      "cname": "anolis",
+      "url": "/anolis",
+      "help": "/help/local-repository/anolis/",
+      "upstream": "rsync://rsync_user@rsync.openanolis.cn/anolis/",
+      "syncing": false,
+      "success": true,
+      "lastFinishTime": "2022-07-02T11:23:14.0139225+00:00",
+      "syncStartingTime": "2022-07-02T11:22:29.7965914+00:00",
+      "oldSuccessTime": null,
+      "status": "S1656760994"
+    },
+    {
+      "cname": "archlinux",
+      "url": "/archlinux",
+      "help": "/help/local-repository/archlinux/",
+      "upstream": "rsync://mirrors.bfsu.edu.cn/archlinux/",
+      "syncing": false,
+      "success": true,
+      "lastFinishTime": "2022-07-02T12:23:58.0837395+00:00",
+      "syncStartingTime": "2022-07-02T12:22:25.7517799+00:00",
+      "oldSuccessTime": null,
+      "status": "S1656764638"
+    },
+    {
+      "cname": "centos",
+      "url": "/centos",
+      "help": "/help/local-repository/centos/",
+      "upstream": "rsync://mirrors.bfsu.edu.cn/centos/",
+      "syncing": false,
+      "success": true,
+      "lastFinishTime": "2022-07-02T13:23:34.9528935+00:00",
+      "syncStartingTime": "2022-07-02T13:22:40.1698906+00:00",
+      "oldSuccessTime": null,
+      "status": "S1656768214"
+    },
+    {
+      "cname": "docker-ce",
+      "url": "/docker-ce",
+      "help": "/help/local-repository/docker-ce/",
+      "upstream": "rsync://mirrors.bfsu.edu.cn/docker-ce/",
+      "syncing": false,
+      "success": true,
+      "lastFinishTime": "2022-07-02T12:22:28.001312+00:00",
+      "syncStartingTime": "2022-07-02T12:22:24.8556586+00:00",
+      "oldSuccessTime": null,
+      "status": "S1656764548"
+    },
+    {
+      "cname": "grafana",
+      "url": "/grafana",
+      "help": "/help/local-repository/grafana/",
+      "upstream": "rsync://mirrors.bfsu.edu.cn/grafana",
+      "syncing": false,
+      "success": true,
+      "lastFinishTime": "2022-07-02T13:22:38.0836979+00:00",
+      "syncStartingTime": "2022-07-02T13:22:37.3501838+00:00",
+      "oldSuccessTime": null,
+      "status": "S1656768158"
+    },
+    {
+      "cname": "influxdata",
+      "url": "/influxdata",
+      "help": "/help/local-repository/influxdata/",
+      "upstream": "rsync://mirrors.bfsu.edu.cn/influxdata",
+      "syncing": false,
+      "success": true,
+      "lastFinishTime": "2022-07-02T13:22:37.1446666+00:00",
+      "syncStartingTime": "2022-07-02T13:22:36.363158+00:00",
+      "oldSuccessTime": null,
+      "status": "S1656768157"
+    },
+    {
+      "cname": "kali",
+      "url": "/kali",
+      "help": "/help/local-repository/kali/",
+      "upstream": "rsync://ftp.nluug.nl/kali",
+      "syncing": true,
+      "success": true,
+      "lastFinishTime": "2022-07-02T13:22:34.1298909+00:00",
+      "syncStartingTime": "2022-07-02T13:22:35.4314551+00:00",
+      "oldSuccessTime": null,
+      "status": "Y1656768155"
+    },
+    {
+      "cname": "nginx",
+      "url": "/nginx",
+      "help": "/help/local-repository/nginx/",
+      "upstream": "rsync://rsync.mirrors.ustc.edu.cn/repo/nginx/",
+      "syncing": false,
+      "success": true,
+      "lastFinishTime": "2022-07-02T11:22:30.260356+00:00",
+      "syncStartingTime": "2022-07-02T11:22:27.2104329+00:00",
+      "oldSuccessTime": null,
+      "status": "S1656760950"
+    },
+    {
+      "cname": "openeuler",
+      "url": "/openeuler",
+      "help": "/help/local-repository/openeuler/",
+      "upstream": "rsync://root@121.36.97.194/openeuler/",
+      "syncing": false,
+      "success": true,
+      "lastFinishTime": "2022-07-02T11:23:34.4463038+00:00",
+      "syncStartingTime": "2022-07-02T11:22:26.2877693+00:00",
+      "oldSuccessTime": null,
+      "status": "S1656761014"
+    },
+    {
+      "cname": "openresty",
+      "url": "/openresty",
+      "help": "/help/local-repository/openresty/",
+      "upstream": "rsync://mirrors.bfsu.edu.cn/openresty/",
+      "syncing": false,
+      "success": true,
+      "lastFinishTime": "2022-07-02T13:22:27.5702152+00:00",
+      "syncStartingTime": "2022-07-02T13:22:23.9836659+00:00",
+      "oldSuccessTime": null,
+      "status": "S1656768147"
+    },
+    {
+      "cname": "ubuntu",
+      "url": "/ubuntu",
+      "help": "/help/local-repository/ubuntu/",
+      "upstream": "rsync://rsync.archive.ubuntu.com/ubuntu",
+      "syncing": false,
+      "success": true,
+      "lastFinishTime": "2022-07-02T11:49:30.6855888+00:00",
+      "syncStartingTime": "2022-07-02T11:22:25.537963+00:00",
+      "oldSuccessTime": null,
+      "status": "S1656762570"
+    },
+    {
+      "cname": "ubuntu-releases",
+      "url": "/ubuntu-releases",
+      "help": "/help/local-repository/ubuntu-releases/",
+      "upstream": "rsync://rsync.releases.ubuntu.com/releases/",
+      "syncing": false,
+      "success": true,
+      "lastFinishTime": "2022-07-02T12:22:28.7464774+00:00",
+      "syncStartingTime": "2022-07-02T12:22:23.9076641+00:00",
+      "oldSuccessTime": null,
+      "status": "S1656764548"
+    },
+    {
+      "cname": "zabbix",
+      "url": "/zabbix",
+      "help": "/help/local-repository/zabbix/",
+      "upstream": "rsync://mirrors.bfsu.edu.cn/zabbix",
+      "syncing": false,
+      "success": true,
+      "lastFinishTime": "2022-07-02T11:22:52.7493928+00:00",
+      "syncStartingTime": "2022-07-02T11:22:24.6820502+00:00",
+      "oldSuccessTime": null,
+      "status": "S1656760972"
+    }
+  ]
+}

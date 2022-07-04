@@ -1,0 +1,208 @@
+{
+  "version": 1.5,
+  "site": {
+    "url": "https://mirrors.sdu.edu.cn",
+    "logo": "https://mirrors.sdu.edu.cn/favicon.svg",
+    "logo_darkmode": "https://mirrors.sdu.edu.cn/favicon.svg",
+    "abbr": "SDU",
+    "name": "山东大学镜像站",
+    "issue": "https://github.com/SDU-Mirrors/issues/issues",
+    "request": "https://github.com/SDU-Mirrors/issues/issues",
+    "group": "QQ Group 782809018",
+    "big": "/archlinux/iso/latest/arch/x86_64/airootfs.sfs"
+  },
+  "info": [
+    {
+      "distro": "Arch Linux",
+      "category": "os",
+      "urls": [
+        {
+          "name": "2022.07.01 (x86_64, CLI-only)",
+          "url": "/archlinux/iso/latest/archlinux-2022.07.01-x86_64.iso"
+        }
+      ]
+    },
+    {
+      "distro": "RHEL 衍生版",
+      "category": "os",
+      "urls": [
+        {
+          "name": "Rocky Linux 8.6 (x86_64, minimal)",
+          "url": "/rocky/8.6/isos/x86_64/Rocky-8.6-x86_64-minimal.iso"
+        },
+        {
+          "name": "Rocky Linux 8.6 (x86_64, dvd1)",
+          "url": "/rocky/8.6/isos/x86_64/Rocky-8.6-x86_64-dvd1.iso"
+        },
+        {
+          "name": "Rocky Linux 8.6 (x86_64, boot)",
+          "url": "/rocky/8.6/isos/x86_64/Rocky-8.6-x86_64-boot.iso"
+        },
+        {
+          "name": "Rocky Linux 8.6 (aarch64, minimal)",
+          "url": "/rocky/8.6/isos/aarch64/Rocky-8.6-aarch64-minimal.iso"
+        },
+        {
+          "name": "Rocky Linux 8.6 (aarch64, dvd1)",
+          "url": "/rocky/8.6/isos/aarch64/Rocky-8.6-aarch64-dvd1.iso"
+        },
+        {
+          "name": "Rocky Linux 8.6 (aarch64, boot)",
+          "url": "/rocky/8.6/isos/aarch64/Rocky-8.6-aarch64-boot.iso"
+        }
+      ]
+    },
+    {
+      "distro": "Ubuntu",
+      "category": "os",
+      "urls": [
+        {
+          "name": "xenial-updates (i386, network installer directory)",
+          "url": "/ubuntu/dists/xenial-updates/main/installer-i386/current/images/netboot"
+        },
+        {
+          "name": "xenial-updates (amd64, network installer directory)",
+          "url": "/ubuntu/dists/xenial-updates/main/installer-amd64/current/images/netboot"
+        },
+        {
+          "name": "xenial-proposed (i386, network installer directory)",
+          "url": "/ubuntu/dists/xenial-proposed/main/installer-i386/current/images/netboot"
+        },
+        {
+          "name": "xenial-proposed (amd64, network installer directory)",
+          "url": "/ubuntu/dists/xenial-proposed/main/installer-amd64/current/images/netboot"
+        },
+        {
+          "name": "xenial (i386, network installer directory)",
+          "url": "/ubuntu/dists/xenial/main/installer-i386/current/images/netboot"
+        },
+        {
+          "name": "xenial (amd64, network installer directory)",
+          "url": "/ubuntu/dists/xenial/main/installer-amd64/current/images/netboot"
+        },
+        {
+          "name": "22.04 (amd64, Server)",
+          "url": "/ubuntu-releases/jammy/ubuntu-22.04-live-server-amd64.iso"
+        },
+        {
+          "name": "22.04 (amd64, Desktop LiveDVD)",
+          "url": "/ubuntu-releases/jammy/ubuntu-22.04-desktop-amd64.iso"
+        },
+        {
+          "name": "21.10 (amd64, Server)",
+          "url": "/ubuntu-releases/impish/ubuntu-21.10-live-server-amd64.iso"
+        },
+        {
+          "name": "21.10 (amd64, Desktop LiveDVD)",
+          "url": "/ubuntu-releases/impish/ubuntu-21.10-desktop-amd64.iso"
+        },
+        {
+          "name": "20.04.4 (amd64, Server)",
+          "url": "/ubuntu-releases/focal/ubuntu-20.04.4-live-server-amd64.iso"
+        },
+        {
+          "name": "20.04.4 (amd64, Desktop LiveDVD)",
+          "url": "/ubuntu-releases/focal/ubuntu-20.04.4-desktop-amd64.iso"
+        },
+        {
+          "name": "18.04.6 (amd64, Server)",
+          "url": "/ubuntu-releases/bionic/ubuntu-18.04.6-live-server-amd64.iso"
+        },
+        {
+          "name": "18.04.6 (amd64, Desktop LiveDVD)",
+          "url": "/ubuntu-releases/bionic/ubuntu-18.04.6-desktop-amd64.iso"
+        },
+        {
+          "name": "16.04.7 (amd64, Server)",
+          "url": "/ubuntu-releases/xenial/ubuntu-16.04.7-server-amd64.iso"
+        },
+        {
+          "name": "16.04.6 (i386, Server)",
+          "url": "/ubuntu-releases/xenial/ubuntu-16.04.6-server-i386.iso"
+        },
+        {
+          "name": "14.04.6 (i386, Server)",
+          "url": "/ubuntu-releases/trusty/ubuntu-14.04.6-server-i386.iso"
+        },
+        {
+          "name": "14.04.6 (amd64, Server)",
+          "url": "/ubuntu-releases/trusty/ubuntu-14.04.6-server-amd64.iso"
+        }
+      ]
+    }
+  ],
+  "mirrors": [
+    {
+      "cname": "archlinux",
+      "desc": "",
+      "url": "/archlinux/",
+      "status": "S1656694894",
+      "help": "/docs/guide/ArchLinux",
+      "upstream": "",
+      "size": "71455M"
+    },
+    {
+      "cname": "github-release",
+      "desc": "",
+      "url": "/github-release/",
+      "status": "S1656765506",
+      "help": "https://github.com/SDU-Mirrors/wonderful-github-releases",
+      "upstream": "",
+      "size": "11610M"
+    },
+    {
+      "cname": "manjaro",
+      "desc": "",
+      "url": "/manjaro/",
+      "status": "S1656699040",
+      "help": "",
+      "upstream": "",
+      "size": "115281M"
+    },
+    {
+      "cname": "rocky",
+      "desc": "",
+      "url": "/rocky/",
+      "status": "S1656698082",
+      "help": "/docs/guide/RockyLinux",
+      "upstream": "",
+      "size": "176769M"
+    },
+    {
+      "cname": "ubuntu",
+      "desc": "",
+      "url": "/ubuntu/",
+      "status": "S1656743494",
+      "help": "/docs/guide/Ubuntu",
+      "upstream": "",
+      "size": "1913828M"
+    },
+    {
+      "cname": "ubuntu-releases",
+      "desc": "",
+      "url": "/ubuntu-releases/",
+      "status": "S1656698411",
+      "help": "",
+      "upstream": "",
+      "size": "25684M"
+    }
+  ],
+  "extension": "D",
+  "endpoints": [
+    {
+      "label": "sdu",
+      "public": true,
+      "resolve": "mirrors.sdu.edu.cn",
+      "filter": [
+        "V4",
+        "V6",
+        "SSL",
+        "NOSSL"
+      ],
+      "range": [
+        "AS4538",
+        "AS23910"
+      ]
+    }
+  ]
+}
