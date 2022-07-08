@@ -16,61 +16,61 @@
       "cname": "anthon",
       "desc": "",
       "url": "/anthon",
-      "status": "F1654952410O1654896610"
+      "status": "S1657261209"
     },
     {
       "cname": "archlinux",
       "desc": "",
       "url": "/archlinux",
-      "status": "S1654933334"
+      "status": "S1657263857"
     },
     {
       "cname": "archlinuxcn",
       "desc": "",
       "url": "/archlinuxcn",
-      "status": "S1654933403"
+      "status": "S1657259134"
     },
     {
       "cname": "centos",
-      "desc": "反向代理",
+      "desc": "",
       "url": "/centos",
-      "status": "R"
+      "status": "S1657259185"
     },
     {
       "cname": "centos-stream",
-      "desc": "反向代理",
+      "desc": "",
       "url": "/centos-stream",
-      "status": "R"
+      "status": "S1657259194"
     },
     {
       "cname": "debian",
       "desc": "",
       "url": "/debian",
-      "status": "F1654952602O1654866337"
+      "status": "S1657261164"
     },
     {
       "cname": "debian-cd",
-      "desc": "反向代理",
+      "desc": "",
       "url": "/debian-cd",
-      "status": "R"
+      "status": "S1657261166"
     },
     {
       "cname": "debian-cd-nonfree",
       "desc": "",
       "url": "/debian-cd-nonfree",
-      "status": "S1654933610"
+      "status": "S1657261185"
     },
     {
       "cname": "debian-security",
       "desc": "",
       "url": "/debian-security",
-      "status": "F1654952666O1654866346"
+      "status": "S1657261185"
     },
     {
       "cname": "deepin",
       "desc": "",
       "url": "/deepin",
-      "status": "S1654933638"
+      "status": "S1657261260"
     },
     {
       "cname": "docker-ce",
@@ -82,19 +82,25 @@
       "cname": "kali",
       "desc": "",
       "url": "/kali",
-      "status": "F1654952810O1654866577"
+      "status": "S1657261694"
     },
     {
       "cname": "kali-images",
       "desc": "",
       "url": "/kali-images",
-      "status": "F1654952813O1654897172"
+      "status": "S1657263857"
     },
     {
       "cname": "manjaro",
       "desc": "",
       "url": "/manjaro",
-      "status": "F1654953164O1654897268"
+      "status": "S1657263433"
+    },
+    {
+      "cname": "openwrt",
+      "desc": "",
+      "url": "/openwrt",
+      "status": "Y1657281601"
     },
     {
       "cname": "pypi",
@@ -106,31 +112,31 @@
       "cname": "raspbian",
       "desc": "",
       "url": "/raspbian",
-      "status": "F1654953226O1654882605"
+      "status": "S1657260464"
     },
     {
       "cname": "rfc",
       "desc": "",
       "url": "/rfc",
-      "status": "S1654937777"
+      "status": "S1657260471"
     },
     {
       "cname": "termux",
       "desc": "",
       "url": "/termux",
-      "status": "S1654937796"
+      "status": "S1657260476"
     },
     {
       "cname": "ubuntu",
       "desc": "",
       "url": "/ubuntu",
-      "status": "S1654942540"
+      "status": "S1657270617"
     },
     {
       "cname": "ubuntu-releases",
       "desc": "",
       "url": "/ubuntu-releases",
-      "status": "S1654938234"
+      "status": "S1657266424"
     }
   ],
   "info": [],

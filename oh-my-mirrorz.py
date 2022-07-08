@@ -8,7 +8,7 @@ import sys
 import os
 import argparse
 
-VERSION = '20220705'
+VERSION = '20220708'
 CURL_VERSION = ''
 UA_URL = 'https://mirrors.quickso.cn'
 
